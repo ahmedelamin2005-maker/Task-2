@@ -4,7 +4,7 @@
 ## Section 1: The Challenge
 This is my work for the challenge. The goal is to build a summary card using HTML and CSS. The main focus is to learn the relationship between Parent and Child elements. It also focuses on using CSS Inheritance well. 
 
-Challenge Link: https://www.frontendmentor.io/challenges/order-summary-component-QIPmajDUj?hl=ar-EG
+
 
 ## Section 2: My Process
 
