@@ -25,6 +25,9 @@ body {
   background-image: url('./images/pattern-background-desktop.svg');
   background-size: 100% auto;
   background-repeat: no-repeat;
+  /* 
+  --- Head Feedback
+  - Why you make Flex box to body? make div container and in this make tag parent and make flex to thier children */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +35,9 @@ body {
 }
 
 
-
+/* 
+  --- Head Feedback
+  - this is good name for card */
 .card-container {
   background-color: var(--color-neutral-white);
   max-width: 450px;
@@ -50,20 +55,29 @@ body {
 .card-content {
   padding: 2.5rem 3rem;
 }
-
+/* 
+  --- Head Feedback 
+  - We can call it by .card-content h1 instead of name each tags in page if we won't make unique style to it. */
 .card-title {
   color: var(--color-neutral-dark-blue);
   font-size: 1.75rem; 
   font-weight: 900;
   margin-bottom: 1rem;
 }
-
+/* 
+  --- Head Feedback
+  - The same note of card-title we can make .card-content p 
+  - read more about Classitis
+*/
 .card-description {
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
 
 /* Use Flexbox on the Parent to control the alignment and spacing of the Children. */
+/* 
+  --- Head Feedback
+  - good but make sure about the same note above */
 .plan-selector {
   display: flex;
   justify-content: space-between;
@@ -104,7 +118,11 @@ body {
 
   font: inherit; 
   font-weight: 900; 
-
+/* 
+  --- Head Feedback
+  - free spaces here
+  - why you using [cite_start]?
+  */
   width: 100%; 
   padding: 1rem;
  background-color: var(--color-primary-bright-blue); [cite_start]
@@ -112,7 +130,10 @@ body {
   border: none;
   border-radius: 0.75rem;
   cursor: pointer;
-  
+  /* 
+  --- Head Feedback
+  - in the future make sure you define all variables and colors in above in ::root to change it from one place in the big projects
+  */
   box-shadow: 0 20px 20px -10px rgba(56, 41, 224, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -120,10 +141,17 @@ body {
 .btn-primary:hover,
 .btn-primary:focus {
   background-color: var(--color-primary-bright-blue-hover);
+  /* 
+  --- Head Feedback
+  - this also make its color above in root */
   box-shadow: 0 20px 20px -10px rgba(56, 41, 224, 0.4);
 }
 
 .btn-secondary {
+  /* 
+  --- Head Feedback
+  - good job 
+  */
   font: inherit; 
   color: inherit; 
   font-weight: 700;
@@ -138,8 +166,15 @@ body {
   transition: color 0.3s ease;
 }
 
+  /* 
+  --- Head Feedback
+  - Dry Principle , your type the same selectors above 
+  */
 .btn-secondary:hover,
 .btn-secondary:focus {
-  
+  /* 
+  --- Head Feedback
+  - good job */
   color: var(--color-neutral-dark-blue);
 }
+

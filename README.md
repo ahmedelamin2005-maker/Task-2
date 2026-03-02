@@ -22,3 +22,10 @@ I read about CSS Specificity. This means knowing which style wins when a parent 
 I used the inherit word as a neat trick. I used it on buttons and links so they match the page without writing extra code. I also used Flexbox on the parent box to easily line up the icon, price, and link inside.
 ## Section 4: Useful Resources
 I read MDN Web Docs pages to help me learn about inheritance for this project.
+
+## Head Feedback(General):
+- Great job from you using Semantic html tags this is very good
+- all Files of project i mean photos should be import in repo not only html css readme files
+- you don't need to name each element, but only elements need to unique styles and read more about Child Combinator vs Descendant Combinator
+- you can make comments to yourself to know where beginning and end of elements for example card start and end in html and in css styles read more about it
+- Good job, keep gooing 
